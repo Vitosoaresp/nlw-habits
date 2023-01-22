@@ -58,23 +58,37 @@ npm install
 cd mobile/
 npm install
 ```
+
+## Configurações para o banco de dados
+
+##### URL do database para o prisma
+ - Caso queira usar o sqlite mesmo, so faça a copia do env.
+```bash
+cd server/ && cp .env-example .env
+```
+##### Rode a seed
+```bash
+npx prisma db seed
+```
+
+
 ## Executando aplicação
 
 * Para rodar o back-end:
 
-  ```
+  ```bash
   cd server && npm run dev
   ```
 * Para web:
 
-  ```
+  ```bash
     cd web/ && npm run dev
   ```
 * Para mobile:
   
   ##### Caso não tenha preparado ainda o seu ambiente mobile clique [aqui.](https://react-native.rocketseat.dev/)
   
-  ```
+  ```bash
     cd mobile && npm start
   ```
 

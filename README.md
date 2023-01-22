@@ -63,20 +63,23 @@ npm install
 * Para rodar o back-end:
 
   ```
-  npm run dev
+  cd server && npm run dev
   ```
-* Para rodar para web:
+* Para web:
 
   ```
-    npm run dev
+    cd web/ && npm run dev
   ```
-* Para rodar para mobile:
+* Para mobile:
   
   ##### Caso não tenha preparado ainda o seu ambiente mobile clique [aqui.](https://react-native.rocketseat.dev/)
   
   ```
-    npm start
+    cd mobile && npm start
   ```
 
 ## Fotos
 
+![image](https://user-images.githubusercontent.com/23152592/213938237-70a6baf1-f2b7-42cc-a07e-42eb7388c099.png)
+![image](https://user-images.githubusercontent.com/23152592/213939660-7b7c7aef-8e2b-4ebc-9103-9e5eb2d7e07b.png)
+![image](https://user-images.githubusercontent.com/23152592/213939693-bc682536-582b-4cf1-9a65-e891806cf99c.png)
